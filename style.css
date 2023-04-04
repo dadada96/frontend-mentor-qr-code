@@ -1,0 +1,48 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.middle-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 14px;
+    padding: 12px;
+}
+
+.content {
+    width: 250px;
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    border-radius: 14px;
+}
+
+.text-content {
+    padding: 10px;
+}
+
+.card-title {
+    font-family: 'outfit';
+    font-size: 19px;
+    margin-top: 16px;
+}
+
+.card-subtitle {
+    font-size: 12px;
+    color: hsl(220, 15%, 55%);
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 375px) {
+    .card-container {
+        scale: 1.2;
+    }
+}
